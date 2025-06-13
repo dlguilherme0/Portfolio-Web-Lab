@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ancizar Serif';
+}
+
+body{
+    background-color:rgb(227, 237, 243)
+}
+
+header{
+    border: 3px solid black;    /* Cria um retângulo ao redor do h1 */
+    background-color:rgb(122, 188, 226);
+    margin: 12px;
+    padding: 40px;
+    width: 99%;
+    text-align: center;
+    position: sticky;            /* "Gruda" o header no topo da tela */
+    top: 0;
+}
+
+nav{
+    font-size: large;
+    margin-top: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 15px;
+}
+
+nav a{                           /* Considera cada link dentro do nav */
+    color:azure;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: rgb(51, 125, 168);
+    text-decoration: none;           /* Tira o sublinhado dos links */
+    padding: 8px 12px;
+}
+
+.container{
+    font-family: 'Ancizar Serif';
+    margin: auto;                 /* Centraliza o main */
+    max-width: 1000px;
+    width: 100%;
+    padding: 40px 20px;
+    font-size:large;
+}
+
+.flex{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+footer{
+    border: 3px solid black;
+    padding: 40px;
+    font-size: large;
+    text-align: center;
+    background-color: rgb(122, 188, 226);
+    margin: 12px;
+}
+
+#nome{
+    border-radius: 6px;
+    border-color: black;
+    border-width: 2px;       /* É a grossura da borda. */
+    font-size: large;
+    padding: 2px 6px;
+}
+
+#email{
+    border-width: 2px;
+    border-radius: 6px;
+    font-size: large;
+    padding: 2px 6px;
+    border-color: black;
+}
+
+#telefone{
+    border-width: 2px;
+    border-radius: 6px;
+    font-size: large;
+    padding: 2px 6px;
+    border-color: black;
+}
+
+#texto{
+    border-width: 2px;
+    border-radius: 6px;
+    font-size: large;
+    padding: 2px 6px;
+    border-color: black;
+}
+
+.botao{
+    border-radius: 6px;
+    font-size: large;
+    padding: 4px 16px;
+    border-color: black;
+    border-width: 2px;
+    cursor: pointer;
+    background-color: rgb(51, 125, 168);
+    color:azure;
+}
